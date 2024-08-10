@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Hacker Theme</title>
+    <link rel="stylesheet" href="welcomestyle.css">
+</head>
+<body>
+    <div class="welcome-container">
+        <div class="logo">
+            <img src="Hacker-Logo.jpg" alt="Hacker Logo">
+        </div>
+        <h1>Welcome to the World of CyberSecurity</h1>
+        <p>You have successfully simulated a brute force attack.</p>
+        <button class="action-button">Simulate Again</button>
+    </div>
+    <script>
+        const redirectbtn = document.querySelector(".action-button");
+
+        redirectbtn.addEventListener("click", function () {
+            window.location.assign("sign_in.html");
+        });
+    </script>
+</body>
+</html>

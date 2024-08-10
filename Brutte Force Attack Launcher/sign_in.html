@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication Page</title>
+    <link rel="stylesheet" href="style.css" ;>
+    <script src="https://kit.fontawesome.com/ff21608b37.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sign In</h1>
+            <form action="">
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" id="email" placeholder="Email" required>
+                    </div>
+
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="password" placeholder="Password" required>
+                        <i class="fa-regular fa-eye" id="togglePassword"></i>
+                    </div>
+                    <p id="forgotpassword">Forgot password? <a href="./ForgotPassword.html" id="myLink">Click here</a></p>
+                    <div class="submit-field">
+                        <button type="button" id="signinSubmit">Submit</button>
+                        <button type="button" id="attackbtn">Attack</button>
+                    </div>
+                </div>
+                <div class="btn-field">
+                    <button type="button" id="signinBtn" > Sign in</button>
+                    <a href="./sign_up.html">
+                        <button type="button" id="signupBtn" class="disable"> Sign up</button>
+                    </a>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./sign_in.js"></script>
+
+</body>
+
+</html>
